@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.1" type="template" client="site">
+	<name>Free Blank Joomla! Bootstrap Template</name>
+	<creationDate>05-2015</creationDate>
+	<author>Andrew Crossan | CreativeSights</author>
+	<authorEmail>info@creativesights.com</authorEmail>
+	<authorUrl>http://www.creativesights.com</authorUrl>
+	<copyright>2015</copyright>
+	<version>1.0.0</version>
+	<description>A basic blank Joomla! template designed to provide an easy way to start building a custom responsive template.</description>
+	<files>
+		<folder>css</folder>
+		<filename>index.php</filename>
+		<filename>index.html</filename>
+		<filename>favicon.ico</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+	</files>
+	<positions>
+		<position>logo</position>
+		<position>main_nav</position>
+		<position>sidebar</position>
+	</positions>
+	<config>
+	</config>
+</extension>
