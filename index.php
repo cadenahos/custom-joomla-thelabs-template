@@ -32,45 +32,64 @@ JHtml::_('bootstrap.loadCss', true);
 		<jdoc:include type="modules" name="main_nav" style="none" />
 		</nav>
 		<div class ="banner">
-			<!-- img src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/banner.JPG"-->
-			<jdoc:include type="modules" name="user" style="none"/>
+		<figure>
+			<img src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/banner.JPG">
+			<figcaption>Con procesos de calidad </figcaption>
+		</figure>
+
+
 		</div>
-		<main class="content-area">
+		<div id="myCarousel" class="carousel slide">
+  			<ol class="carousel-indicators">
+    				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    				<li data-target="#myCarousel" data-slide-to="1"></li>
+    				<li data-target="#myCarousel" data-slide-to="2"></li>
+ 			</ol>
+  				<!-- Carousel items -->
+  			<div class="carousel-inner">
+			<div class="active item">
+						<h1>Ejemplo 1</h1>
+						<img src="https://via.placeholder.com/1150x150">
+			</div>
+    			<div class="item">
+						<h1>Ejemplo 2</h1>
+						<img src="https://via.placeholder.com/1150x150">
+			</div>
+    			<div class="item">
+						<h1>Ejemplo 3 </h1>	
+						<img src="https://via.placeholder.com/1150x150">
+			</div>
+  			</div>
+  			<!-- Carousel nav -->
+  			<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+  			<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+		</div>
+		<main class="content-area hero-unit">
 			<h2>Hola a thelabs</h2>
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut tellus et ipsum ullamcorper tincidunt non nec urna. Phasellus posuere odio nunc, ut malesuada metus vulputate ac. Mauris nulla metus, bibendum sed metus at, condimentum bibendum sem. Nunc pretium tortor est, sit amet sagittis magna accumsan id. Aliquam erat volutpat. Mauris sit amet ipsum in odio scelerisque tristique a sit amet neque. Duis nec ipsum in ligula scelerisque ultricies. Donec lacinia vitae orci eget imperdiet. Etiam sit amet urna mattis, ornare odio in, vulputate nisl. Pellentesque viverra consectetur diam eget varius.
 			</p>	
 		</main>
 
-		<aside class="sidebar">
-			<h3>Cosas adicionales</h3>
-			<ul>
-				<li>lista</li>
-				<li>de</li>
-				<li>articulos</li>
-				<li>Here</li>
-				<li>wow!</li>
-			</ul>
-		</aside>
 
 		<section class="certifications-wrapper">
 			<h2>Nuestras certificaciones</h2>
 
 			<section class="certifications">
-				<figure class="certification">
-					<img src="https://via.placeholder.com/150x150">
+				<figure class="certification img-polaroid">
+					<img src="https://via.placeholder.com/200x150">
 				</figure>
 			
-				<figure class="certification">
+				<figure class="certification img-polaroid">
 					<img src="https://via.placeholder.com/200x150">
 				</figure>
 
-				<figure class="certification">			
-					<img src="https://via.placeholder.com/100x200">
+				<figure class="certification img-polaroid">			
+					<img src="https://via.placeholder.com/200x150">
 				</figure>
 
-				<figure class="certification">
-					<img src="https://via.placeholder.com/100x100">
+				<figure class="certification img-polaroid">
+					<img src="https://via.placeholder.com/200x150">
 				</figure>
 			</section>
 		</section>

@@ -11,6 +11,7 @@
 	<description>A basic blank Joomla! template designed to provide an easy way to start building a custom responsive template.</description>
 	<files>
 		<folder>css</folder>
+		<folder>html</folder>
 		<filename>index.php</filename>
 		<filename>index.html</filename>
 		<filename>favicon.ico</filename>
