@@ -31,10 +31,9 @@ JHtml::_('bootstrap.loadCss', true);
 		<nav class="main-menu">
 		<jdoc:include type="modules" name="main_nav" style="none" />
 		</nav>
-		<div class ="banner">
-		<figure>
+		<div class ="banner ">
+		<figure class="img-circle">
 			<img src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/banner.JPG">
-			<figcaption>Con procesos de calidad </figcaption>
 		</figure>
 
 
@@ -49,28 +48,27 @@ JHtml::_('bootstrap.loadCss', true);
   			<div class="carousel-inner">
 			<div class="active item">
 						<h1>Ejemplo 1</h1>
-						<img src="https://via.placeholder.com/1150x150">
+					<img src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/img_scale_1.png">
+
 			</div>
     			<div class="item">
 						<h1>Ejemplo 2</h1>
-						<img src="https://via.placeholder.com/1150x150">
+						<img src="https://via.placeholder.com/1350x350">
 			</div>
     			<div class="item">
 						<h1>Ejemplo 3 </h1>	
-						<img src="https://via.placeholder.com/1150x150">
+						<img src="https://via.placeholder.com/1350x350">
 			</div>
   			</div>
   			<!-- Carousel nav -->
   			<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
   			<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
 		</div>
-		<main class="content-area hero-unit">
-			<h2>Hola a thelabs</h2>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut tellus et ipsum ullamcorper tincidunt non nec urna. Phasellus posuere odio nunc, ut malesuada metus vulputate ac. Mauris nulla metus, bibendum sed metus at, condimentum bibendum sem. Nunc pretium tortor est, sit amet sagittis magna accumsan id. Aliquam erat volutpat. Mauris sit amet ipsum in odio scelerisque tristique a sit amet neque. Duis nec ipsum in ligula scelerisque ultricies. Donec lacinia vitae orci eget imperdiet. Etiam sit amet urna mattis, ornare odio in, vulputate nisl. Pellentesque viverra consectetur diam eget varius.
-			</p>	
+		<main class="content-area hero-unit ">
+			<h2 class="text-left">	Nos acompaña un grupo selecto de quimicos farmaceuticos, en el
+				desarrollo de nuestros procesos de calidad.
+			</h2>
 		</main>
-
 
 		<section class="certifications-wrapper">
 			<h2>Nuestras certificaciones</h2>
