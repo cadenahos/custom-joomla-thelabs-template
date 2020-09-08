@@ -47,17 +47,19 @@ JHtml::_('bootstrap.loadCss', true);
   				<!-- Carousel items -->
   			<div class="carousel-inner">
 			<div class="active item">
-						<h1>Ejemplo 1</h1>
-					<img src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/img_scale_1.png">
+						<h1 class="text-center">Ejemplo 1</h1>
+					<img src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/img_scale_1.jpg">
 
 			</div>
     			<div class="item">
-						<h1>Ejemplo 2</h1>
-						<img src="https://via.placeholder.com/1350x350">
+						<h1 class="text-center">Ejemplo 2</h1>
+					<img src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/img_scale_2.jpg">
+	
 			</div>
     			<div class="item">
-						<h1>Ejemplo 3 </h1>	
-						<img src="https://via.placeholder.com/1350x350">
+						<h1 class="text-center">Ejemplo 3 </h1>	
+					<img src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/img_scale_3.jpg">
+
 			</div>
   			</div>
   			<!-- Carousel nav -->
@@ -71,7 +73,7 @@ JHtml::_('bootstrap.loadCss', true);
 		</main>
 
 		<section class="certifications-wrapper">
-			<h2>Nuestras certificaciones</h2>
+			<h2 class="text-center">Nuestras certificaciones</h2>
 
 			<section class="certifications">
 				<figure class="certification img-polaroid">

@@ -77,6 +77,8 @@
 }
 div.carousel>.carousel-inner{
 	border-radius: 10px !important;
+	border: 3px solid lightblue;
+	background: #9190a3;
 }
 .sidebar {
 	grid-area: sidebar;
@@ -117,7 +119,8 @@ div.carousel>.carousel-inner{
 		"languages languages languages "
 		"logo menu menu"
 		"mica mica mica"	
-		"content content banner"
+		"content content content"
+		"banner banner banner "
 		"certifications certifications certifications"
 		"sidebar sidebar sidebar"
 		"footer footer footer";
